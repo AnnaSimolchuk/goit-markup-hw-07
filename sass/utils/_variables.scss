@@ -1,20 +1,8 @@
-%list {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
-%link {
-  text-decoration-line: none;
-}
-
-%visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0px;
-  padding: 0px;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent: #2196f3;
+$white-text-color: #ffffff;
+$background-color: #ffffff;
+$secondary-background-color: #f5f4fa;
+$cubic: cubic-bezier(0.4, 0, 0.2, 1);
+$button-background-color: #f5f4fa;
