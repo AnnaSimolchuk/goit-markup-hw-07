@@ -17,7 +17,7 @@
   transition: all 250ms $cubic;
 
   &:hover,
-  :focus {
+  &:focus {
     --color4: #2196f3;
     border-color: $accent;
   }
