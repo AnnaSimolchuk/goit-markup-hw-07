@@ -8,3 +8,34 @@
   line-height: 1.2;
   text-align: center;
 }
+
+.work-list {
+  display: flex;
+  @extend %list;
+
+  .list {
+    position: relative;
+
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+
+    color: $white-text-color;
+    background: rgba(47, 48, 58, 0.8);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.7;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
