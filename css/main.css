@@ -1,6 +1,6 @@
 .site-nav,
 .contact-nav, .info-list,
-.contact-list, .secondary-footer .logos-list {
+.contact-list, .secondary-footer .logos-list, .benefits {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -451,6 +451,63 @@ footer {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
+}
+
+.benefits {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.benefits .title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.benefits .benefit-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.benefit-img {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 102px;
+}
+
+.text {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.section-title-padding {
+  margin: 0;
+  padding-top: 94px;
+  padding-bottom: 50px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
   text-align: center;
 }
 /*# sourceMappingURL=main.css.map */
