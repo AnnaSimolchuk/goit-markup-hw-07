@@ -11,8 +11,6 @@
 
 .examples {
   width: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
-  border-radius: 5px;
   transition: all 250ms $cubic;
 
   &:not(:nth-child(3n)) {
@@ -77,5 +75,7 @@
 }
 
 .content {
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
   padding: 20px 24px;
 }
