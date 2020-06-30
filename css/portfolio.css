@@ -6,7 +6,7 @@
   list-style: none;
 }
 
-.main-logo, .site-nav .link, .contact-nav .link, .full-logo, .info-list .address .map, .contact-list .footer-info {
+.main-logo, .site-nav .link, .contact-nav .link, .full-logo, .info-list .address .map, .contact-list .footer-info, .portfolio-link {
   text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ body {
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
