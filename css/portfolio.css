@@ -209,9 +209,7 @@ img {
 }
 
 .page-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  border-bottom: 1px solid #ececec;
 }
 
 .main-nav {
